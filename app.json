@@ -11,32 +11,32 @@
     "repository": "https://github.com/lMl10l/MusicJep",
     "env": {
         "SESSION": {
-            "description": "هنا ضع كود البايروكرام",
+            "description": "AQCYUOV95f0Ywtm3RaH0BgBO9V8biC4HwErRLn7Tm-vlagiC9Fy5m1UB3_gqcWPUxmPO0XUFKf9xvEFsiZgboq3EOxknJJyUxZaccr9PpD6R4cynwGyd26vDrcCD1iNN2BMchWMqv6lEJiTy8iU5eUcLGL77XD4oT8mb7fIhsXXteb5bixIEli0fQRFXz0DwG3wYRQ9wz57OhKq6rx8g-Uajilr-FCMzJw_pnjOX7WxMjsyrBrsTO50JQwTXc_xagIJOpfhodMqU3sZEMFmNYLtnJK1ZNsBpKW53XeJd5bfWCxrl4QPCeFMu-BIpZHyRVfCRwScVr3EzYAnPA5ObhWk-AAAAATmGO98A",
             "required": true
         },
         "API_ID": {
-            "description": "هنا ضع الايبب ايدي",
+            "description":"16727482",
             "required": true
         },
         "HNDLR": {
             "description": "العلامه التي تضعها قبل اسم الامر مثل ( $ • -) تستطيع تغييرها ",
             "required": false,
-            "value": "$"
+            "value": "#"
         },
         "API_HASH": {
-            "description": "هنا ضع الايبي هاش",
+            "description": "55edb5638b3ce1b0dbeb00cc210525f2",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "هنا ضع ايدي حسابك كمطور للبوت بمكنك وضع اكثر من شخص بوضع ايدي المستخدم",
+            "description": "1254750804 5260065759",
             "required": true
         },
         "OWNER_NAME": {
-            "description": "ضع هنا اسم المطور",
+            "description": "ࢪﺿـاۅي اެبن الـدورة",
             "required": true
         },
         "CHANNEL": {
-            "description": "هنا ضع معرف قناتك او كروبك بدون @",
+            "description": "x02x2",
             "required": true
         }        
         
