@@ -15,7 +15,7 @@ async def skip(client, m: Message):
     if len(m.command) < 2:
         op = await skip_current_song(chat_id)
         if op == 0:
-            await m.reply("**- لا يوجد شيء في قائمة الانتظار لتخطيه**")
+            await m.reply("**- ماكو شي بقائمة الانتظار لتخطيه**")
         elif op == 1:
             await m.reply("**")
         else:
@@ -41,7 +41,7 @@ async def skip(client, m: Message):
             await m.reply(OP)
 
 
-@Client.on_message(filters.command(["انهاء", "توقف"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["كافي", "اوكف"], prefixes=f"{HNDLR}"))
 @authorized_users_only
 async def stop(client, m: Message):
     await m.delete()
@@ -50,14 +50,15 @@ async def stop(client, m: Message):
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await m.reply("**✅ تم إنهاء التشغيل بنجاح **")
+            await m.reply("**✅ اوكي، تم انهاء التشغيل بنجاح **")
         except Exception as e:
             await m.reply(f"**هناك خطأ ** \n`{e}`")
     else:
         await m.reply("**❌ لايوجد هناك اغنيه شغاله !**")
 
 
-@Client.on_message(filters.command(["ايقاف"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["اوكف شويه"], prefixes=f"{HNDLR}"))
+                                   
 @authorized_users_only
 async def pause(client, m: Message):
     await m.delete()
@@ -74,7 +75,7 @@ async def pause(client, m: Message):
         await m.reply("**- لم يتم تشغيل اي شيء اصلا!**")
 
 
-@Client.on_message(filters.command(["استئناف"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["كمل"], prefixes=f"{HNDLR}"))
 @authorized_users_only
 async def resume(client, m: Message):
     await m.delete()
@@ -83,7 +84,7 @@ async def resume(client, m: Message):
         try:
             await call_py.resume_stream(chat_id)
             await m.reply(
-                f"**▶ تم استئناف التشغيل للاغنيه المتوقفة **\n\n•  لإيقاف التشغيل مؤقتًا ، استخدم الأمر » {HNDLR}ايقاف**"
+                f"**▶ تم التشغيل للاغنيه المتوقفة **\n\n•  لإيقاف التشغيل مؤقتًا ، استخدم الأمر » {HNDLR}ايقاف**"
             )
         except Exception as e:
             await m.reply(f"**خطأ** \n`{e}`")
