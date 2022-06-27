@@ -11,12 +11,12 @@
     "repository": "https://github.com/lMl10l/MusicJep",
     "env": {
         "SESSION": {
-            "description": "1ApWapzMBu0UE6yCcrod13OgF4mspHaWMvtfJ50sAFWo3sKdUUNQ73n-lATYoFvQcAlv5fes5vx1OVpjTecpwktKczN9734DGoqANwnfh4RCzJ3jvWHMv0bi-b8rvXxHil29cz5WHhhSd6s8bFzrx3vfNGyIYI3YPvTISOHnJfofUv5NLySWzo1hBr0fWwDfNRpfmZ96lTQOHVvf0cInaZSWk-oiO3aULfz1N1edNAteQElVRtJX8YUfJsNC6MJqXE5p0XAj9SmHtmc8LIQunaVogg89TMTDhuAIjcWMh6LTRAqaR91lJIHnD5hFFeGAxMEaFePNRQhScdNJpqeyLjqolORkdKaU=", 
+            "description": "ضع هنا كود تيرمكس", 
            
             "required": true
         },
         "API_ID": {
-            "description":"11440071",
+            "description":"ضع هنا الايبي ايدي",
             "required": true
         },
         "HNDLR": {
@@ -25,19 +25,20 @@
             "value": "#"
         },
         "API_HASH": {
-            "description": "f9803f0cdb5630506725e3d5c1b54215",
+            "description": "ضع هنا الايبي هاش",
+            
             "required": true
         },
         "SUDO_USERS": {
-            "description": "1254750804 5130058730",
+            "description": "ضع هنا ايدي المطور ",
             "required": true
         },
         "OWNER_NAME": {
-            "description": "ࢪﺿـاۅي اެبن الـدورة",
+            "description": "اسم المطور",
             "required": true
         },
         "CHANNEL": {
-            "description": "x02x2",
+            "description": "قناة المطور",
             "required": true
         }        
         
