@@ -11,8 +11,8 @@
     "repository": "https://github.com/lMl10l/MusicJep",
     "env": {
         "SESSION": {
-            "description": "1ApWapzMBu0UE6yCcrod13OgF4mspHaWMvtfJ50sAFWo3sKdUUNQ73n-lATYoFvQcAlv5fes5vx1OVpjTecpwktKczN9734DGoqANwnfh4RCzJ3jvWHMv0bi-b8rvXxHil29cz5WHhhSd6s8bFzrx3vfNGyIYI3YPvTISOHnJfofUv5NLySWzo1hBr0fWwDfNRpfmZ96lTQOHVvf0cInaZSWk-oiO3aULfz1N1edNAteQElVRtJX8YUfJsNC6MJqXE5p0XAj9SmHtmc8LIQunaVogg89TMTDhuAIjcWMh6LTRAqaR91lJIHnD5hFFeGAxMEaFePNRQhScdNJpqeyLjqolORkdKaU=" 
-            ",
+            "description": "1ApWapzMBu0UE6yCcrod13OgF4mspHaWMvtfJ50sAFWo3sKdUUNQ73n-lATYoFvQcAlv5fes5vx1OVpjTecpwktKczN9734DGoqANwnfh4RCzJ3jvWHMv0bi-b8rvXxHil29cz5WHhhSd6s8bFzrx3vfNGyIYI3YPvTISOHnJfofUv5NLySWzo1hBr0fWwDfNRpfmZ96lTQOHVvf0cInaZSWk-oiO3aULfz1N1edNAteQElVRtJX8YUfJsNC6MJqXE5p0XAj9SmHtmc8LIQunaVogg89TMTDhuAIjcWMh6LTRAqaR91lJIHnD5hFFeGAxMEaFePNRQhScdNJpqeyLjqolORkdKaU=", 
+           
             "required": true
         },
         "API_ID": {
